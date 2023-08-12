@@ -1,11 +1,9 @@
-import Image from "next/image";
-
-export default function Section({
+export const SectionHeader = ({
   className,
   children,
 }: {
   className?: string;
   children?: any;
-}) {
+}) => {
   return <section className={className}>{children}</section>;
-}
+};

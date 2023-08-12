@@ -4,10 +4,10 @@
 
 * {
   @apply font-mont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.bg_header {
-}
 .button__nav {
   border-radius: 10px;
   border: 3px solid transparent;
@@ -46,5 +46,39 @@ h6 {
   left: 0;
 }
 .linear__bottom {
-  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    0deg,
+    #000 0.52%,
+    rgba(0, 0, 0, 0.72) 18.23%,
+    rgba(0, 0, 0, 0.08) 78.13%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.large__buttom__header {
+  box-shadow: 0 0px 50px -12px #8e43f65b;
+  transition: box-shadow 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.large__buttom__header:hover {
+  box-shadow: 0 0px 50px -12px #8e43f6;
+}
+
+.box__shadow {
+  box-shadow: 0px -30px 100px 0px #000;
+}
+.rocket__element_animation {
+  transform-origin: bottom;
+  animation: rocketAnimation 3s cubic-bezier(0.39, 0.09, 0.47, 0.85) infinite;
+}
+
+@keyframes rocketAnimation {
+  0% {
+    transform: translateX(-12px) rotateY(-10deg);
+  }
+
+  50% {
+    transform: translateX(12px) rotateY(10deg);
+  }
+  100% {
+    transform: translateX(-12px) rotateY(-10deg);
+  }
 }

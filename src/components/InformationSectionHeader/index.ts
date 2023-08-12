@@ -1,0 +1,1 @@
+export { InformationSectionHeader } from "./InformationSectionHeader";

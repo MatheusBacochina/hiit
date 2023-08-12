@@ -1,5 +1,5 @@
 import Image from "next/image";
-export default function Links() {
+export const NavContent = () => {
   return (
     <>
       <Image
@@ -70,4 +70,4 @@ export default function Links() {
       </div>
     </>
   );
-}
+};

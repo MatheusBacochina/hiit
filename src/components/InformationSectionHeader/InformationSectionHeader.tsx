@@ -2,14 +2,14 @@
 
 import { useRef, useState } from "react";
 
-const Items = () => {
+export const InformationSectionHeader = () => {
   const [videoStartedHideImage, setVideoStartedHideImage] =
     useState<boolean>(true);
 
   return (
     <>
       <div className=" shrink-1 flex grow-0 basis-[512px] flex-col  items-start justify-center gap-3  max-[1128px]:items-center max-[1128px]:gap-6   ">
-        <h1 className="max-[1128px]:text-center">
+        <h1 className=" leading-tight max-[1128px]:text-center">
           <span className="item align-bottom text-[32px] font-normal uppercase tracking-[3.20px] text-white   max-md:items-center">
             Você pode ser aprovado nessa{" "}
           </span>
@@ -27,11 +27,11 @@ const Items = () => {
             .
           </span>
         </h1>
-        <span className="max-w-lg text-start text-lg font-normal leading-[25px] text-white  max-[1128px]:text-center">
+        <p className="max-w-lg text-start text-lg font-normal leading-[25px] text-white  max-[1128px]:text-center">
           Tenha acesso ao Protocolo de Revisão Intensivo MedCof e seja capaz de
           revisar, aprofundar e reter os principais conteúdos em 12 semanas.
-        </span>
-        <button className="h-[51px] w-[307px] rounded-[10px] bg-gradient-to-r from-purple-600 to-blue-400 text-sm font-semibold leading-[25px] text-white">
+        </p>
+        <button className="large__buttom__header rounded-[10px]  bg-gradient-to-r from-purple-600 to-blue-400 px-[22px] py-[12px] text-sm font-semibold leading-[25px] text-white">
           QUERO PARTICIPAR DO HIIT AGORA!
         </button>
       </div>
@@ -55,5 +55,3 @@ const Items = () => {
     </>
   );
 };
-
-export default Items;
