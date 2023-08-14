@@ -59,6 +59,7 @@ h6 {
   transition: box-shadow 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .large__buttom__header:hover {
+  cursor: pointer;
   box-shadow: 0 0px 50px -12px #8e43f6;
 }
 
@@ -67,18 +68,48 @@ h6 {
 }
 .rocket__element_animation {
   transform-origin: bottom;
-  animation: rocketAnimation 3s cubic-bezier(0.39, 0.09, 0.47, 0.85) infinite;
+  animation: rocketAnimation 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
 }
 
 @keyframes rocketAnimation {
   0% {
-    transform: translateX(-12px) rotateY(-10deg);
+    transform: translateX(-8px);
   }
 
   50% {
-    transform: translateX(12px) rotateY(10deg);
+    transform: translateX(8px);
   }
   100% {
-    transform: translateX(-12px) rotateY(-10deg);
+    transform: translateX(-8px);
   }
+}
+.perspective__div {
+  perspective: 1000px;
+}
+.astronautfront__shadow {
+  filter: drop-shadow(10px -20px 3px rgba(0, 0, 0, 0.262));
+}
+.light__astronaut {
+  border-radius: 479.563px;
+  border: 0.67px solid #000;
+  background: linear-gradient(180deg, #af0ffb 0%, #4ca9ec 100%);
+  filter: blur(120.56044006347656px);
+}
+.light__blur {
+  width: 204px;
+  height: 472px;
+  flex-shrink: 0;
+  border-radius: 480px;
+  border: 0.67px solid #000;
+  background: linear-gradient(180deg, #af0ffb 0%, #4ca9ec 100%);
+  filter: blur(120.56044006347656px);
+}
+.border__text__Method {
+  border-bottom: 1px solid #6b6b6b;
+}
+.element__sticky {
+  left: calc(50% - 13px);
+}
+.animate__image__top {
+  animation: floatAnimation 3s infinite ease-in-out;
 }

@@ -31,8 +31,10 @@ export const StepComponent = ({
   );
 
   const stepContent = (
-    <div className="flex-shrink-2 flex aspect-square w-[192px] items-center justify-center rounded-full bg-gradient-to-br from-purple-600 to-blue-400">
-      <div className="text-8xl font-normal text-white">{step}</div>
+    <div className="flex-shrink-2 flex aspect-square h-[192px] items-center  justify-center   rounded-full bg-gradient-to-br from-purple-600 to-blue-400 max-lg:h-[122px] max-md:h-[92px]">
+      <div className="text-8xl font-normal  text-white max-lg:text-7xl max-md:text-5xl">
+        {step}
+      </div>
     </div>
   );
   const returnContentByDirection = [
@@ -40,9 +42,9 @@ export const StepComponent = ({
     direction === "left" ? stepContent : textContent,
   ];
   return (
-    <div className="box__shadow   flex  flex-col items-center bg-neutral-800  bg-opacity-75  px-16">
+    <div className="box__shadow flex  flex-col items-center bg-neutral-800  bg-opacity-75 px-16  max-md:px-12">
       <div
-        className={`relative flex w-full max-w-screen-lg items-center ${
+        className={`perspective__div relative flex w-full max-w-screen-lg items-center ${
           !children && spaceBetween && "justify-between"
         }  gap-12 py-12 `}
       >

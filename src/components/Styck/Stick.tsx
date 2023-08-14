@@ -1,10 +1,10 @@
 export const Stick = () => {
   return (
-    <div className="element__to__add__perspective sticky left-[50%] top-8 z-40 mb-4  inline-flex translate-x-[-17.5px] animate-bounce cursor-pointer  rounded-2xl  bg-gradient-to-l from-purple-600 to-blue-400 px-2 py-2.5 ">
+    <div className="element__sticky sticky left-[50%] top-8 z-40 mb-4  inline-flex  animate-bounce cursor-pointer  rounded-2xl  bg-gradient-to-l from-purple-600 to-blue-400 px-1 py-2.5 ">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="19"
-        height="32"
+        height="26"
         viewBox="0 0 11 25"
         fill="none"
       >
