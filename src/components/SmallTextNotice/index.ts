@@ -1,0 +1,1 @@
+export { SmallTextNotice } from "./SmallTextNotice";

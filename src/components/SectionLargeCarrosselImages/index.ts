@@ -1,0 +1,1 @@
+export { SectionLargeCarrosselImages } from "./SectionLargeCarrosselImages";

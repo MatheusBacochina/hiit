@@ -1,0 +1,1 @@
+export { SmallImageForCarrocel } from "./SmallImageForCarrocel";

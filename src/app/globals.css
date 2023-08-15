@@ -55,7 +55,6 @@ h6 {
   );
 }
 .large__buttom__header {
-  box-shadow: 0 0px 50px -12px #8e43f65b;
   transition: box-shadow 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .large__buttom__header:hover {
@@ -104,6 +103,15 @@ h6 {
   background: linear-gradient(180deg, #af0ffb 0%, #4ca9ec 100%);
   filter: blur(120.56044006347656px);
 }
+.light__blur__large {
+  width: 633px;
+  height: 590px;
+
+  border-radius: 633px;
+  border: 0.67px solid #000;
+  background: linear-gradient(180deg, #b00ffbde 0%, #4ca9ecc8 100%);
+  filter: blur(120.56044006347656px);
+}
 .border__text__Method {
   border-bottom: 1px solid #6b6b6b;
 }
@@ -112,4 +120,13 @@ h6 {
 }
 .animate__image__top {
   animation: floatAnimation 3s infinite ease-in-out;
+}
+.hidden__scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.linear__text__color {
+  background: linear-gradient(90deg, #4ca9ec 0%, #af0ffb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

@@ -2,7 +2,7 @@ import Image from "next/image";
 import { MethodWasCreateSectionText } from "@/components/MethodWasCreateSectionText";
 export const MethodWasCreateSection = () => {
   return (
-    <div className="flex justify-center px-24">
+    <div className="flex justify-center  px-24  max-lg:px-6">
       <div className="relative flex grow-0 basis-[1092px] flex-col justify-between   ">
         <Image
           className="animate__image__top astronautfront__shadow ml-28 flex-shrink-0 -translate-y-1/4"
@@ -15,7 +15,7 @@ export const MethodWasCreateSection = () => {
         <div className=" relative flex justify-between  max-lg:justify-center max-lg:px-10 max-sm:px-4 ">
           <div className="light__blur absolute left-[-150px] top-[-192px]" />
           <div className=" relative basis-[500px]  flex-col">
-            <h1 className="border__text__Method pb-12 text-3xl font-bold uppercase tracking-widest  text-white">
+            <h1 className="border__text__Method pb-12 text-3xl font-bold uppercase tracking-widest text-white  max-lg:text-center">
               Todo o Método do HITT foi criado pensando em você que:
             </h1>
             <MethodWasCreateSectionText

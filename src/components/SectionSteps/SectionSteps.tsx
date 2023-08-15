@@ -8,7 +8,7 @@ export const SectionSteps = ({
   className?: string;
 }) => {
   return (
-    <section className=" bg-[url('/images/main/bgsteps.png')] bg-cover bg-center bg-no-repeat  ">
+    <section className=" bg-[url('/images/main/bgsteps.png')]  bg-cover bg-center bg-no-repeat  ">
       <StepComponent
         direction="left"
         step={1}

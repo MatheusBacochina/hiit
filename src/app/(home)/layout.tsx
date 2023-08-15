@@ -1,4 +1,4 @@
-import "./globals.css";
+import "../globals.css";
 import { Montserrat } from "next/font/google";
 
 const mont = Montserrat({
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={`${mont.variable}  font-sans`}>{children}</body>
+      <body className={`${mont.variable}`}>{children}</body>
     </html>
   );
 }

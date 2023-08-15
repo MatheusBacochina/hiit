@@ -1,0 +1,1 @@
+export { CheckTheScheduleComponent } from "./CheckTheScheduleComponent";
