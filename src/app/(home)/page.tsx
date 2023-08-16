@@ -1,6 +1,6 @@
 import { Header } from "@/components/Header";
 import Image from "next/image";
-import { Suspense } from "react";
+import { SectionUnderstandWhoWeAre } from "@/components/SectionUnderstandWhoWeAre";
 import { SectionInformation } from "@/components/SectionInformation";
 import { InformationSectionHeader } from "@/components/InformationSectionHeader";
 import { Nav } from "@/components/Nav";
@@ -100,7 +100,11 @@ export default function HomePage({ children }: { children: React.ReactNode }) {
           acesso. Se o pagamento for efetuado por cartão ou pix, o acesso ao
           curso é imediato. Só a emissão de boleto não garante a sua vaga.
         </SmallTextNotice>
+
         <SectionInformation
+          light={
+            <div className="light__blur absolute right-[-200px] top-0 z-0" />
+          }
           basis={580}
           paragraph={
             <ul className="text-left">
@@ -126,10 +130,10 @@ export default function HomePage({ children }: { children: React.ReactNode }) {
             </ul>
           }
           title="Garantindo a sua participação no HIIT agora, vai receber de bôvnus gratuitos:"
-          className=" mt-28 flex  items-center justify-center px-[94px] max-lg:px-[64px]"
+          className="relative z-30 mt-28 flex  items-center justify-center px-[94px] max-lg:px-[64px]"
         >
           <Image
-            className=" absolute bottom-[-15px] left-[-10px]"
+            className=" absolute bottom-[-15px] left-[-10px] select-none"
             src="/images/main/x-ray.png"
             width={400}
             height={264}
@@ -139,6 +143,7 @@ export default function HomePage({ children }: { children: React.ReactNode }) {
         <ButtonMain />
         <GuaranteeSection />
         <SectionLargeCarrosselImages />
+        <SectionUnderstandWhoWeAre />
       </Main>
     </div>
   );

@@ -130,3 +130,28 @@ h6 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.linear__text {
+  background: linear-gradient(180deg, #af0ffb 0%, #af0ffb 10%, #4ca9ec 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg__transition {
+  transition: background-image 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.animate__image {
+  transform: translateY(-25%);
+  animation: astronautAnimation 3s ease-in-out infinite;
+}
+
+@keyframes astronautAnimation {
+  0% {
+    transform: translateY(-29%);
+  }
+  50% {
+    transform: translateY(-21%);
+  }
+  100% {
+    transform: translateY(-29%);
+  }
+}

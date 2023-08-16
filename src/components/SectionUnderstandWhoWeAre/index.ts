@@ -1,0 +1,1 @@
+export { SectionUnderstandWhoWeAre } from "./SectionUnderstandWhoWeAre";

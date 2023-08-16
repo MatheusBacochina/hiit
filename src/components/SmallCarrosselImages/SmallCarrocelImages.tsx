@@ -3,9 +3,9 @@ import { SmallImageForCarrocel } from "@/components/SmallImageForCarrocel";
 import { ReactNode, useEffect, useRef, useState } from "react";
 export const SmallCarrosselImages = () => {
   const ref = useRef<HTMLDivElement | null>(null);
-  const [canScrollWithTouch, setCanScrollWithTouch] = useState(false);
-  const [alreadyScrollValue, setAlreadyScrollValue] = useState(0);
-  const [clientXValue, setClientXValue] = useState(0);
+  const [canScrollWithTouch, setCanScrollWithTouch] = useState<boolean>(false);
+  const [alreadyScrollValue, setAlreadyScrollValue] = useState<number>(0);
+  const [clientXValue, setClientXValue] = useState<number>(0);
 
   useEffect(() => {
     let event = (e: MouseEvent) => {
@@ -37,7 +37,7 @@ export const SmallCarrosselImages = () => {
             setAlreadyScrollValue(e.currentTarget.scrollLeft);
           }
         }}
-        className={`hidden__scrollbar mt-32 flex w-full max-w-[1092px] snap-x flex-row gap-4 overflow-scroll   ${
+        className={`hidden__scrollbar mt-32 flex w-full max-w-[1092px]  flex-row gap-4 overflow-scroll   ${
           canScrollWithTouch ? "" : "scroll-smooth"
         } `}
       >

@@ -104,6 +104,7 @@ export const MethodWasCreateSection = () => {
           <div className="relative flex  flex-1 items-center max-lg:hidden">
             <div className="light__blur absolute right-[64px] top-[184px] " />
             <div className="absolute right-0 top-[66px] h-48 w-48 rounded-full bg-gradient-to-b from-purple-600 to-blue-400" />
+
             <Image
               className="animate__image absolute right-0 top-[238px]  ml-28 flex-shrink-0  -translate-y-1/4 "
               src="/images/main/astronaut.png"
