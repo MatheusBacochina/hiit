@@ -1,0 +1,1 @@
+export { SectionBenefits } from "./SectionBenefits";

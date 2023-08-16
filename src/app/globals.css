@@ -155,3 +155,6 @@ h6 {
     transform: translateY(-29%);
   }
 }
+.border__bottom {
+  border-bottom: 1px solid #6b6b6b;
+}

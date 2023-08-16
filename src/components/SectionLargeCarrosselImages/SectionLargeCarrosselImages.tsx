@@ -18,21 +18,21 @@ export const SectionLargeCarrosselImages = () => {
       name: "Giuliana Saidel",
       place: "1º lugar Marketing",
       university: "UNIMEDCOF",
-      text: "[ Nome da amiga ] ♥. the best sister (:- sem palavras pra você doce !aquela irmã perfeita .Que tá do sempre ao meu lado pra tudo .Que sempre¹ quer meu beem .Que sempre¹ zoa junto comigoo ?M E L H O R ←Obrigada por tudo viu sua feiosa ;PConta comigo sempre². ~Por meu lema: é homi de amiga minha é mulherSacoé..# Eu TE ADORO amiga ",
+      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae doloribus mollitia voluptatem est tenetur laborum illo velit alias ab. Consequuntur assumenda reiciendis maxime vitae, fuga repudiandae! Facere sit dicta perferendis.",
     },
     {
       path: "/images/main/userslarge/userlarge2.png",
       name: "Ysaac sem sobrenome",
       place: "1º lugar NEO4J",
       university: "UMEDCOF",
-      text: "[ Nome da amiga ] ♥. the best sister (:- sem palavras pra você doce !aquela irmã perfeita .Que tá do sempre ao meu lado pra tudo .Que sempre¹ quer meu beem .Que sempre¹ zoa junto comigoo ?M E L H O R ←Obrigada por tudo viu sua feiosa ;PConta comigo sempre². ~Por meu lema: é homi de amiga minha é mulherSacoé..# Eu TE ADORO amiga ",
+      text: "Lorem ipsum 2 dolor, sit amet consectetur adipisicing elit. Beatae doloribus mollitia voluptatem est tenetur laborum illo velit alias ab. Consequuntur assumenda reiciendis maxime vitae, fuga repudiandae! Facere sit dicta perferendis.",
     },
     {
       path: "/images/main/userslarge/userlarge1.png",
       name: "Giuliana Saidel",
       place: "1º lugar Marketing",
       university: "UNIMEDCOF",
-      text: "[ Nome da amiga ] ♥. the best sister (:- sem palavras pra você doce !aquela irmã perfeita .Que tá do sempre ao meu lado pra tudo .Que sempre¹ quer meu beem .Que sempre¹ zoa junto comigoo ?M E L H O R ←Obrigada por tudo viu sua feiosa ;PConta comigo sempre². ~Por meu lema: é homi de amiga minha é mulherSacoé..# Eu TE ADORO amiga ",
+      text: "Lorem ipsum 3 dolor, sit amet consectetur adipisicing elit. Beatae doloribus mollitia voluptatem est tenetur laborum illo velit alias ab. Consequuntur assumenda reiciendis maxime vitae, fuga repudiandae! Facere sit dicta perferendis.",
     },
   ];
 

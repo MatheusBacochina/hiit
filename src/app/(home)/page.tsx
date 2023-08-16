@@ -3,6 +3,7 @@ import Image from "next/image";
 import { SectionUnderstandWhoWeAre } from "@/components/SectionUnderstandWhoWeAre";
 import { SectionInformation } from "@/components/SectionInformation";
 import { InformationSectionHeader } from "@/components/InformationSectionHeader";
+import { SectionBenefits } from "@/components/SectionBenefits";
 import { Nav } from "@/components/Nav";
 import { Main } from "@/components/Main";
 import { SectionSteps } from "@/components/SectionSteps";
@@ -16,6 +17,7 @@ import { SectionPrices } from "@/components/SectionPrices";
 import { ButtonMain } from "@/components/ButtonMain";
 import { GuaranteeSection } from "@/components/GuaranteeSection";
 import { SectionLargeCarrosselImages } from "@/components/SectionLargeCarrosselImages";
+import { SectionFrequentlyAsked } from "@/components/SectionFrequentlyAsked";
 export default function HomePage({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col items-center overflow-x-hidden overflow-y-scroll bg-black bg-center">
@@ -74,7 +76,7 @@ export default function HomePage({ children }: { children: React.ReactNode }) {
         </SectionInformation>
         <SmallCarrosselImages />
         <CheckTheScheduleComponent />
-        <SmallTextNotice className=" mt-7 flex justify-center  max-lg:px-6">
+        <SmallTextNotice className=" mt-7 flex justify-center   max-lg:px-6">
           Os módulos são disponibilizados semanalmente e você pode estudá-lo
           quantas vezes achar necessário
         </SmallTextNotice>
@@ -98,7 +100,10 @@ export default function HomePage({ children }: { children: React.ReactNode }) {
         <SmallTextNotice className="mt-10 flex justify-center max-lg:px-6">
           Aperte o botão acima e preencha seus dados corretamente para ter
           acesso. Se o pagamento for efetuado por cartão ou pix, o acesso ao
-          curso é imediato. Só a emissão de boleto não garante a sua vaga.
+          curso é imediato.{" "}
+          <span className="font-semibold">
+            Só a emissão de boleto não garante a sua vaga.
+          </span>
         </SmallTextNotice>
 
         <SectionInformation
@@ -144,6 +149,8 @@ export default function HomePage({ children }: { children: React.ReactNode }) {
         <GuaranteeSection />
         <SectionLargeCarrosselImages />
         <SectionUnderstandWhoWeAre />
+        <SectionBenefits />
+        <SectionFrequentlyAsked />
       </Main>
     </div>
   );

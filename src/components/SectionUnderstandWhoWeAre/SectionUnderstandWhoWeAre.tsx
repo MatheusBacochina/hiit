@@ -5,7 +5,7 @@ export const SectionUnderstandWhoWeAre = () => {
       <div className="flex basis-[1290px] max-lg:justify-center  max-lg:px-6 ">
         <div className="flex-1  max-lg:hidden">
           <Image
-            className=" h-full w-full   object-contain  "
+            className="linear__bg__bottom h-full w-full   object-contain  "
             src="/images/main/people.png"
             width={633}
             height={670}

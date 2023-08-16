@@ -8,7 +8,7 @@ export const SmallTextNotice = ({
 }) => {
   return (
     <div className={className}>
-      <p className="mt-7 max-w-[756px]  text-center text-sm font-normal text-white">
+      <p className=" max-w-[756px]   text-center text-sm font-normal text-white">
         {children}
       </p>
     </div>
